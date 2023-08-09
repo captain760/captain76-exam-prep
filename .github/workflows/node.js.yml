@@ -1,4 +1,6 @@
 name: Node.js CI
+vars: 
+  username: "captain76"
 
 on:
   push:
@@ -23,5 +25,5 @@ jobs:
         cache: 'npm'
     - run: npm install
     #- run: npm run test:unit
-    - run: print("captain76")
+    - run: echo "SoftUni Username ---> captain76"
     #- run: npm test
