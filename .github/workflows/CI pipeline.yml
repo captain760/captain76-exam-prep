@@ -1,4 +1,4 @@
-name: Node.js CI
+name: pipeline CI
 
 on:
   push:
@@ -19,11 +19,11 @@ jobs:
         cache: 'npm'
         
     - name: Install NPM
-    - run: npm install
+      run: npm install
     - name: Install Mocha
-    - run: npm i -g mocha
+      run: npm i -g mocha
     - name: Run Unit Tests
-    - run: npm run test:unit
+      run: npm run test:unit
     - name: Display SoftUni username
-    - run: echo "SoftUni Username ---> captain76"
+      run: echo "SoftUni Username ---> captain76"
     
