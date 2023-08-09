@@ -1,6 +1,4 @@
 name: Node.js CI
-vars: 
-  username: "captain76"
 
 on:
   push:
