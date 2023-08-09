@@ -19,6 +19,6 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "@playwright/test": "^1.36.2"
+    "@playwright/test": "^1.30"
   }
 }
